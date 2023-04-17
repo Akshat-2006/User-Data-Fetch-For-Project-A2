@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Welcome, {{ user.username }}!</h2>
+<p>description: {{ user.email }}</p>
+
+<div>
+    <h1>My Network</h1>
+<ol>
+{% for obj in filtered_users %}
+    <li>{{ obj }}</li>
+{% empty %}
+    No entries found.
+{% endfor %}
+</ol>
+</div>
+
+{% endblock %}

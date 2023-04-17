@@ -1,0 +1,35 @@
+input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #464646;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #2b86d5;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid #464646;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+
+  }
+
+  label{
+    font-style: italic;
+  }
+  
+  /* Style form errors */
+  .errorlist {
+    color: red;
+  }
+
+  .register_div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
